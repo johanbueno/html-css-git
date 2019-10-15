@@ -1,47 +1,50 @@
  body {
   background-image: url("../images/qbkls.png");
-     width: 960px;
-     margin-left: 130px;
-     font-family: Arial, Helvetica, sans-serif
+     margin:0 auto;
+     font-family: Arial, Helvetica, sans-serif;
  }
+
  h1 {
      color: #4aaaa5;
      font-family: Georgia, 'Times New Roman', Times, serif;
 
  }
+ nav {
+   width: 960px;
+   margin: 0 auto;
+   background-color: #ffffff;
+ }
 
  ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 ;
     padding: 0;
-    overflow: hidden;
-    background-color: #ffffff;
  }
- li {
-    float: right;
-    list-style-type: none;
-  }
+ 
   
   li a {
-    display: block;
+    float: right;
+    list-style-type: none;
+    display:block;
     color:#777777;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 16px;
     text-decoration: none;
-    
+    font-size: 20px;
+
   }
- 
 
 .active{
-  width: 100%;
+
 background-color: #ffffff;
 font-family: 'Times New Roman', Times, serif;
 border-bottom: 3px solid #cccccc;
- 
+position: relative;
+height: 60px;
+
 }
 li a:hover{
     background-color:#4aaaa5;
-    padding: 25px 25px;
 
 }
  footer {
@@ -54,8 +57,89 @@ li a:hover{
     text-align: center;
  }
  .about {
-  background-image: url("../images/triangle-mosaic.png");
+
   width: 960px;
-  height: 100%;
+  margin: 0 auto;
+  background-color: #ffffff;
+  position: relative;
+  bottom: -40px;
  }
+ .contact {
+ text-align: center;
+ display:block;
+ }
+ .contact h1 {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+  .container{
+    position: relative;
+    bottom: -40px;
+    padding: 20px 30px;
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    background-color:  #ffffff;
+  }
+ 
+  input,textarea{
+    width: 960px;
+    padding: 10px 0px;
+    margin: 5px 0px;
+  }
+  button {
+    font-size: 20px;
+    padding: 10px 18px;
+    margin: 5px 0px;
+    border-radius: 8px;
+    background-color: #4aaaa5;
+  }
+  .row{
+    position: relative;
+    height: 700px;
+    background-color:  #ffffff;
+  }
+  .row div {
+    float: left;
+    margin: 20px 90px;
+    
+  }
+  .angular {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border: 2px solid black;
+    background-image: url("../images/angular.png");
+    
+  }
+  .game {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-image: url("../images/game.png")
+  }
+  .html_responsive {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-image: url("../images/responsive.jpeg")
+  }
+  
+  .blackjackgame {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-image: url("../images/blackjack.png")
+  }
+  .javascript {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-image: url("../images/javascript.png")
+  }
   
